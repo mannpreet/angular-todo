@@ -1,0 +1,6 @@
+<div>
+    <h4>{{heading}}</h4>
+    <input #enteredTodo type="text" value="{{updatedTodoContent}}">
+    <button (click)="addNewTodo(enteredTodo.value)">Add Todo</button>
+    <ng-content></ng-content>
+</div>    
